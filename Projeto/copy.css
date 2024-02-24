@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h3{
+    color: #fff;
+}
+/*header*/
+
+.header{
+    background-color: rgb(129, 255, 4);
+    height: 160px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*form*/
+.box-input{
+    text-align: left;
+    top: -62px;
+    background-color: #fff;
+    width: 700px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top:20px;
+    font-size: 20px;
+    position: relative;
+    top: -62px;
+}
+
+.cont{
+    display: block;
+    width: 300px;
+    height: 20px;
+    background-color: #f9f4f9;
+}
+
+.price-label,.area-label{
+    font-size: 15px;
+}
+.price-input,.area-input{
+    width: 50px;
+}
+
+.sbmt{
+    background-color: rgb(129, 255, 4);
+    border:2px solid transparent;
+    color: #fff;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition:0.5;
+}
+
+.sbmt:hover{
+    background-color: #fff;
+    color:rgb(129, 255, 4);
+    border-color:rgb(129, 255, 4);
+}

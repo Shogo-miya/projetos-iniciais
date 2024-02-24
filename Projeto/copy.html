@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>copia</title>
+    <link rel="stylesheet" href="copy.css">
+</head>
+<body>
+    <div class="header">
+        <h3>Encontre uma república com o seu perfil!</h3>
+    </div>
+    <div class="form">
+        <form action="">
+            <div class="box-input">
+                <label for="adress">Endereço <span class="required">*</span></label>
+                <input 
+                type="text" 
+                name="adress" 
+                class="cont"
+                placeholder="Digite endereço, cidade ou bairro">
+            </div>
+            <div class="box-input">
+                <label for="house-type">Tipo de imóvel <span class="required">*</span></label>
+                <select name="house-type" class="cont" multiple>
+                    <option value="casa">Casa</option>
+                    <option value="apartamento">Apartamento</option>
+                    <option value="studio">studio</option>
+                    <option value="kitnet">Kitnet</option>
+                </select>
+            </div>
+            <div class="box-input">
+                <label for="min-price" class="price-label">Preço mínimo</label>
+                <input 
+                type="text"
+                name="min-price"
+                class="price-input"
+                placeholder="R$-">
+                <label for="max-price" class="price-label">Preço máximo</label>
+                <input 
+                type="text"
+                name="max-price"
+                class="price-input"
+                placeholder="R$-">
+            </div>
+            <div class="box-input">
+                <label for="room-qnt">Número de quartos</label>
+                <select name="room-qnt" class="cont">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4 ou mais</option>
+                </select>
+            </div>
+            <div class="box-input">
+                <label for="min-area" class="area-label">Área mínima</label>
+                <input 
+                type="text"
+                name="min-area"
+                class="area-input"
+                placeholder="-mˆ2">
+                <label for="max-area" class="area-label">Área máxima</label>
+                <input 
+                type="text"
+                name="max-area"
+                class="area-input"
+                placeholder="ilimitado-mˆ2">
+            </div>
+            <div class="box-input">
+                <input type="submit" value="Enviar" class="sbmt">
+                <input type="reset" value="Limpar" class="sbmt">
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
