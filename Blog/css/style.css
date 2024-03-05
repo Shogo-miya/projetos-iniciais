@@ -50,6 +50,7 @@ a:hover{
     padding:2rem 2.5rem;
     max-width: 1200px;
     margin: 20px auto;
+    border-bottom: 1px soild #ddd;
 }
 
 .blog{
@@ -114,6 +115,12 @@ a:hover{
     margin-bottom: 15px;
 }
 
+.footer{
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
